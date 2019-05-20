@@ -39,7 +39,7 @@ setup(
     package_dir={'ctx_to_zooniverse':
                  'ctx_to_zooniverse'},
     include_package_data=True,
-    install_requires=requirements,
+    install_requires=setup_requirements,
     license="MIT license",
     zip_safe=False,
     keywords='ctx_to_zooniverse',
