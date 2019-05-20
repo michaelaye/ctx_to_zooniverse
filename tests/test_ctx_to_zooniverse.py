@@ -7,7 +7,7 @@ import pytest
 
 from click.testing import CliRunner
 
-from ctx_to_zooniverse import ctx_to_zooniverse
+from ctx_to_zooniverse import input_processing
 from ctx_to_zooniverse import cli
 
 

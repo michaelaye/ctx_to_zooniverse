@@ -12,10 +12,10 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-setup_requirements = []
-with open('requirements/prod.txt', 'r') as fd:
+install_requirements = []
+with open('requirements/install.txt', 'r') as fd:
     for req in requirements.parse(fd):
-        setup_requirements.append(req.name)
+        install_requirements.append(req.name)
 
 test_requirements = []
 with open('requirements/test.txt', 'r') as fd:
@@ -39,7 +39,7 @@ setup(
     package_dir={'ctx_to_zooniverse':
                  'ctx_to_zooniverse'},
     include_package_data=True,
-    install_requires=setup_requirements,
+    install_requires=install_requirements,
     license="MIT license",
     zip_safe=False,
     keywords='ctx_to_zooniverse',
@@ -53,5 +53,5 @@ setup(
     ],
     test_suite='tests',
     tests_require=test_requirements,
-    setup_requires=setup_requirements,
+    setup_requires=["requirements-parser", "pytest-runner"],
 )
