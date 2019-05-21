@@ -1,13 +1,9 @@
-=======
-Credits
-=======
+# Credits
 
-Development Lead
-----------------
+## Development Lead
 
 * K.-Michael Aye <kmichael.aye@gmail.com>
 
-Contributors
-------------
+## Contributors
 
 * M. Schwamb <mschwamb.astro@gmail.com>
