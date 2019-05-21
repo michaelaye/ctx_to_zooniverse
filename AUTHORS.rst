@@ -6,7 +6,7 @@ Credits
 Development Lead
 ----------------
 
-- K.-Michael Aye <kmichael.aye@gmail.com>
+- K.-Michael Aye <kmichael.aye@gmail.com>, https://github.com/michaelaye
 
 ------------
 Contributors
