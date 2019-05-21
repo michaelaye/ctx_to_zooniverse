@@ -17,11 +17,13 @@ install:
   - hash -r
   - conda config --set always_yes yes
   - conda update -q conda
-  - conda install conda-build anaconda-client pytest pytest-cov
-  - conda config --set auto_update_conda no
-  - conda build conda.recipe --no-test
-  - conda install --use-local ctx_to_zooniverse
+  # - conda install conda-build anaconda-client pytest pytest-cov
+  - conda install pytest pytest-cov
+  # - conda config --set auto_update_conda no
+  # - conda build conda.recipe --no-test
+  # - conda install --use-local ctx_to_zooniverse
   - conda info -a
+  - pip install .
   
 script:
   - pytest -v --color=yes --cov=ctx_to_zooniverse tests
