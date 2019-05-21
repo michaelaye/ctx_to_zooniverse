@@ -17,6 +17,8 @@ ctx_to_zooniverse
      :target: https://pyup.io/repos/github/michaelaye/ctx_to_zooniverse/
      :alt: Updates
 
+.. image:: https://codecov.io/gh/michaelaye/ctx_to_zooniverse/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/michaelaye/ctx_to_zooniverse
 
 Code to support the ingestion of MRO CTX data into the Zooniverse Citizen Science system.
 
