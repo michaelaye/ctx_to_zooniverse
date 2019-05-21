@@ -2,6 +2,4 @@
 omit =
     setup.py
     ctx_to_zooniverse/__main__.py
-    ctx_to_zooniverse/_version.py
-    versioneer.py
     tests/*
